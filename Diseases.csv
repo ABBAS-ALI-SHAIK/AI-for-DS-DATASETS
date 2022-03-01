@@ -1,0 +1,8 @@
+﻿Training,Fever,Vomiting,Diarrhea,Shivering,Classification
+C1,no,no,no,no,healty(H)
+C2,average,no,no,no,influenz(I)
+C3,high,no,no,yes,influenz(I)
+C4,high,yes,yes,no,salmonella poisoning(S)
+C5,average,no,yes,no,salmonella poisoning(S)
+C6,no,yes,yes,no,bowel inflammation(B)
+C7,average,yes,yes,no,bowel inflammation(B)
