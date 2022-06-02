@@ -1,0 +1,20 @@
+import pandas as pd
+def main():
+   print(' *** Using pandas.read_csv() with Custom delimiter ***')
+   # Read a csv file to a dataframe with custom delimiter
+   usersDf =  pd.read_csv('users_3.csv', sep='__'  , engine='python')
+   print('Contents of Dataframe : ')
+   print(usersDf)
+   print('********')
+   print(' *** Using pandas.read_csv() with space or tab as delimiters ***')
+   # Read a csv file to a dataframe with delimiter as space or tab
+   usersDf =  pd.read_csv('users_4.csv',  sep='\s+', engine='python')
+   print('Contents of Dataframe : ')
+   print(usersDf)
+   print(' *** Using pandas.read_csv() with multiple char delimiters ***')
+   # Read a csv file to a dataframe with multiple delimiters in regular expression
+   usersDf =  pd.read_csv('users_5.csv',  sep='[:,|_]', engine='python')
+   print('Contents of Dataframe : ')
+   print(usersDf)
+if __name__ == '__main__':
+   main()

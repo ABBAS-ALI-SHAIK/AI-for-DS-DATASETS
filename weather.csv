@@ -1,0 +1,7 @@
+   date	      temperature      windSpeed       status
+2020-05-06	35.6582         10.788378	sunny
+2020-05-09      NaN		NaN		NaN
+2020-05-10	30.9343		NaN		rainy
+2020-05-11	NaN		6.889682	cloudy
+2020-05-12	13.9082		19.012990	rainy
+2020-05-13	23.9382		NaN		sunny
